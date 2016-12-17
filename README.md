@@ -5,11 +5,12 @@
 #design for private and local network use only.
 #
 #-Installation-
+<h4>
 #1. Create a new folder inside your web server's root
 #2. Copy all the files from this project and paste them in the new file
 #3. upload music and video via the upload tab
 #4. refresh, and your files are ready to be streamed from your server.
-#
+</h4>
 #Design for web server with large capacity and low processing power
 #eg. Raspberry pi / Oragne pi / Banana pi w/ 16GB TF card or above
 #
