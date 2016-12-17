@@ -17,7 +17,7 @@ design for private and local network use only.<br>
 #eg. Raspberry pi / Oragne pi / Banana pi w/ 16GB TF card or above<br>
 </h3>
 <h5>
-Sepcial thanks to Yami Odymel for TOCAS UI and Saren for the online content viewer<br>
+Special thanks to Yami Odymel for TOCAS UI and Saren for the online content viewer<br>
 No CopyRight, free to share and modify, non commercial use only.<br>
 By-product of ArOZ System feat. IMUS Laboratory.<br>
 </h5>
