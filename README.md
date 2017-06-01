@@ -5,16 +5,16 @@ ArOZ Omega Online is an online platform design for no database environment<br>
 Support mp3 / mp4 online streaming services,<br>
 design for private and local network use only.<br>
 </h3>
-# -Installation-
+<h1> -Installation- </h1>
 <h4>
-## 1. Create a new folder inside your web server's root <br>
-## 2. Copy all the files from this project and paste them in the new file<br>
-## 3. upload music and video via the upload tab<br>
-## 4. refresh, and your files are ready to be streamed from your server.<br>
+1. Create a new folder inside your web server's root <br>
+2. Copy all the files from this project and paste them in the new file<br>
+3. upload music and video via the upload tab<br>
+4. refresh, and your files are ready to be streamed from your server.<br>
 </h4>
 <h3>
-### Design for web server with large capacity and low processing power<br><br>
-### eg. Raspberry pi / Oragne pi / Banana pi w/ 16GB TF card or above<br>
+Design for web server with large capacity and low processing power<br><br>
+eg. Raspberry pi / Oragne pi / Banana pi w/ 16GB TF card or above<br>
 </h3>
 <img src="https://raw.githubusercontent.com/tobychui/ArOZ-Omega-Online/master/image/ArOZ%20Online%20Preview.png">
 <h5>
