@@ -5,7 +5,7 @@
     </head>
 
 <body>
-    <link rel="stylesheet" href="//cdn.rawgit.com/TeaMeow/TocasUI/master/dist/tocas.min.css">
+    <link rel="stylesheet" href="script/tocas.min.css">
 	<div class="ts text container">
     <h1>IMUS Laboratory </h1>
 	<h2>ArOZ Bulk Download</h2>

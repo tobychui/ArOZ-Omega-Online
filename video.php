@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="//cdn.rawgit.com/TeaMeow/TocasUI/master/dist/tocas.min.css">
+<link rel="stylesheet" href="script/css/font-awesome.min.css">
+<link rel="stylesheet" href="script/tocas.min.css">
     <head>
 	<meta charset="utf-8">
         <title>Meow</title>
@@ -21,6 +22,7 @@
     <a class="item" href="index.php">Index</a>
     <a class="item" href="music.php">Music</a>
 	<a class="active item" href="video.php">Video</a>
+	<a class="item" href="photo.php">Photo</a>
 	<a class="item" href="upload/">Upload</a>
 	<a class="item" href="upload/uploads/">Upload Dir</a>
 </div>
@@ -44,9 +46,12 @@
 			#echo $file;
 			echo '<div class="ts basic jumbotron" style="outline: solid #353535">';
 			$filetitle = hex2bin(str_replace(".mp4","",str_replace("inith","",$file)));
-			echo '<h4 class="ts header"><i class="video play outline icon"></i>' . $filetitle . "</h4>";
+			echo '<h4 class="ts header"><i class="fa fa-video-camera" style="font-size:18px"></i>' . $filetitle . "</h4>";
 			echo substr(filesize($dir . $file)/1000000,0,4) . "MB [" . pathinfo($dir.$file)['extension'].']<br>';
+			echo '<div class="ts buttons">';
 			echo '<a class="ts mini primary button" href="vidplay.php?directory='. $dir .'&filename='.$file.'">View</a>';
+			echo '<a class="ts mini basic button" href="'.$dir . $file .'"download="'.$filetitle . ".mp4".'">Download</a>';
+			echo '</div>';
 			echo '</div>';
 			}
 			}

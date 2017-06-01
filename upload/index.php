@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="tocas.min.css">
+<link rel="stylesheet" href="../script/tocas.min.css">
      <head>
 	 <meta charset="UTF-8">
         <title>ArOZ Upload</title>
-        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="../script/jquery.min.js"></script>
 			
     </head>
 	<body>
     <div class="ts container">
-	<h1>IMUS Laboratory</h1>
+	<br>
+	<h1>IMUS Laboratory</h1><br>
 	<h2>ArOZ System Upload Interface</h2>
 	<div class="ts pointing secondary big menu">
     <a class="item" href="../index.php">Index</a>
     <a class="item" href="../music.php">Music</a>
 	<a class="item" href="../video.php">Video</a>
+	<a class="item" href="../photo.php">Photo</a>
 	<a class="active item" href="../upload/">Upload</a>
 	<a class="item" href="uploads/">Upload Dir</a>
 </div>
@@ -43,6 +45,7 @@
 				<option value=''>Files Directory</option>
 				<option value='music'>Music Bank</option>
 				<option value='video'>Video Bank</option>
+				<option value='photo'>Photo Station</option>
 				
 			</select>
         

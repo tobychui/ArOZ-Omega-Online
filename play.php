@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
 		<style>a:link {color: #FE9A2E}</style>
-		<link rel="stylesheet" href="//cdn.rawgit.com/TeaMeow/TocasUI/master/dist/tocas.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="script/tocas.min.css">
+		<script src="script/jquery.min.js"></script>
 		<script>
 		$(document).ready(function(){
 			var player = document.getElementById("musicplayer");
@@ -27,7 +27,7 @@ if (isset($_GET['song']) !== False){
 	}else{
 	echo "Playing unsupported format >> " . str_replace("inith","",$_GET['song']). "<br>";	
 	}
-	echo '<audio id="musicplayer" controls preload="auto" loop autoplay>';
+	echo '<audio id="musicplayer" style="width: 100%;" controls preload="auto" loop autoplay>';
 	echo '<source type="audio/mpeg" src="' . $_GET['song'] . '">';
 	echo '</audio>';
 	echo "<br>";

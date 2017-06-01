@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="//cdn.rawgit.com/TeaMeow/TocasUI/master/dist/tocas.min.css">
+<link rel="stylesheet" href="script/css/font-awesome.min.css">
+<link rel="stylesheet" href="script/tocas.min.css">
     <head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="script/jquery.min.js"></script>
 	<meta charset="UTF-8">
         <title>Meow</title>
     <!--Written by Rub-->
@@ -38,6 +39,7 @@
     <a class="item" href="index.php">Index</a>
     <a class="active item" href="music.php">Music</a>
 	<a class="item" href="video.php">Video</a>
+	<a class="item" href="photo.php">Photo</a>
 	<a class="item" href="upload/">Upload</a>
 	<a class="item" href="upload/uploads/">Upload Dir</a>
 </div>
@@ -71,7 +73,7 @@
 						
 						<div align="left" class="column">
 							<div class="ts text container">
-							<i class="music icon"></i>'.$filename.'
+							<i class="fa fa-music" style="font-size:18px"></i>&nbsp'.$filename.'
 							</div>
 						</div>
 						

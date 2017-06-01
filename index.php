@@ -13,6 +13,7 @@
     <a class="active item">Index</a>
     <a class="item" href="music.php">Music</a>
 	<a class="item" href="video.php">Video</a>
+	<a class="item" href="photo.php">Photo</a>
 	<a class="item" href="upload/">Upload</a>
 	<a class="item" href="upload/uploads/">Upload Dir</a>
 </div>

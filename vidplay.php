@@ -1,7 +1,7 @@
 <html>
-<link rel="stylesheet" href="tocas.min.css">
+<link rel="stylesheet" href="script/tocas.min.css">
     <head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="script/jquery.min.js"></script>
 	<meta charset="utf-8">
         <title>Video</title>
         <script>
@@ -30,8 +30,9 @@
     </head>
     <body>
 	<div class="ts container">
-	<h1>IMUS Laboratory </h1>
-	<h2>ArOZ Video Bank</h2>
+	<br>
+	<h1>IMUS Laboratory </h1><br>
+	<h2>ArOZ Video Bank</h2><br>
 	<div class="ts divider"></div>
 	<div class="ts container">
 	<?php
