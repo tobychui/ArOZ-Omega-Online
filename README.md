@@ -6,9 +6,9 @@ Support mp3 / mp4 online streaming services,<br>
 design for private and local network use only.<br>
 </h3>
 
-<p>
-- THIS PROJECT IS NO LONGER SUPPORTED. WE RECOMMEND YOU FOR CHECKING OUT OUR BETA VERSION OF THE PROJECT WHICH WILL BE RELEASED SOON.
-  </p>
+
+- THIS PROJECT IS NO LONGER SUPPORTED. WE RECOMMEND YOU FOR CHECKING OUT OUR ![BETA VERSION](https://github.com/tobychui/ArOZ-Online-System) OF THE PROJECT WHICH WILL BE RELEASED SOON.
+
 <h1> -Installation- </h1>
 <h4>
 1. Create a new folder inside your web server's root <br>
